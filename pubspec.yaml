@@ -1,0 +1,44 @@
+name: ecommerce
+description: "A new Flutter project with AI and TTS features."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_tts: ^4.0.2          # Text-to-Speech support
+  dart_openai: ^6.1.1          # OpenAI API integration
+  provider: ^6.1.5             # State management (optional)
+  http: ^1.1.0                 # HTTP requests (optional)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/1.webp
+    - assets/2.jpg
+    - assets/3.png
+    - assets/4.jpg
+    - assets/5.jpg
+    - assets/6.png
+    - assets/7.webp
+    - assets/8.jpg
+    - assets/9.png
+    - assets/10.jpg
+    - assets/11.jpg
+    - assets/12.png
+    - assets/13.jpg
+    - assets/14.webp
+    - assets/15.jpg
